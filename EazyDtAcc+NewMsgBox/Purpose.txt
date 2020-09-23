@@ -1,0 +1,22 @@
+Properties
+- KonekStr : set Connection String, it consists of  Provider, DB Location & DB Name (DB Path) or DSN.
+- TipeKoneksi : set Connection Type : 0 OnDemand opens and closes the connection. 
+			     1 Persist keeps the connection open until the object is destroyed.
+                                                                    Persist is faster but uses more resources. 
+Methods
+- FillListCombo : Fill list of ComboBox with records on database.
+- GetData : Get record based on the Table name, Field name, Field Key and Field Data which are provided.
+- CekData : Check if the record already in the table.
+- InsertData : Add records to the table on database.
+- UpdateData : Edit existing records.
+- SearchData : Set a recordset based on SQL String provided.
+- DeleteData : Delete records based on the Table name, Field name, and Field Data which are provided.
+- GetAllData : Get all records based on the Table name provided.
+
+How to use Methods Of My Dll see example-1tomany.doc, i give example for Transaction Form.
+
+//////////////////////////////////////////////////////////////////////////////
+/// ActiveX Data Access DLL programmed by Tendri S///
+/////////////////////////////////////////////////////////////////////////////
+
+
